@@ -1,0 +1,16 @@
+Hi, My name is Ganesh.
+I am fresher and having good knowledge in java.
+This is basic signin and resigration page.
+I hope it may help to you.
+I Hope if you have any idea about recaptcha and otp.
+This will become perfect page and awsome page.
+
+Steps to acesses this project inside your eclipse.
+
+1.import this project from github and add to eclipse.
+
+2. Create a table in my sql to store your data.
+   * create database res;
+   * use res;
+   * create table login(username varchar(20),password varchar(15));
+   * create table sigin(name varchar(20),birthday date,gender varchar(8),phone varchar(11),email varchar(30),password varchar(10));

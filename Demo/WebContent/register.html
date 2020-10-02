@@ -1,0 +1,44 @@
+<!Doctype>
+<html>
+<head> 
+<title>
+Registration Page
+</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<br>
+<form action="register" method="post">
+<center>
+<h1>Register</h1>
+<br>
+<b>Firstname </b>
+<input type="text" name="fname" required><br><br>
+<b>Lastname</b>
+<input type="text" name="lname" required> <br> <br>
+<b>Birthday</b>
+<input type="date" id="birthday" name="birthday" required">
+<br><br>
+<b> 
+Gender
+</b>
+<input type="radio" name="gender" value="male" > Male 
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other" > Other
+<br>
+<br>
+<b> 
+Phone 
+</b>
+<input type="tel" name="phone" pattern="[6-9]{1}[0-9]{9}" required><br><br>
+<b>Email</b>
+ <input type="email" name="email" required><br><br>
+ <b>Password </b><input type="password" name="pass"><br><br>
+ <input type="submit" value="submit"> <br><br>
+ <b>Note:</b>
+<i>If you are not interested in form go</i>
+<a href="index.html"><b><u>back.</u></b></a>
+</center>
+</form>
+</body>
+</html>
